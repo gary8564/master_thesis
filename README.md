@@ -4,9 +4,9 @@ This study presents a neural network-based approach for the dynamic response mod
 In addition, this work also employs LSTM and MLP to predict base excitations of a structure from its dynamic responses and predict the elastic modulus of each story in a building from its stiffness matrix via MLP. The promising results from numerical simulation data indicate that the proposed methods are potentially suitable for real applications.
 
 ## Instructions
-"linear" file: linear system's one-step-ahead time series forecasting models and damage assessment
-"nonlinear model" file: nonlinear system(Bouc Wen model)'s one-step-ahead time series forecasting models and damage assessment
-"predict_unmeasured_floor" file: predict unmeasured floors from measured dynamic responses and base excitations
-"future_predict_past" file: predict base excitations of a structure from its dynamic responses
-"K_E_mapping" file: predict the elastic modulus of each story in a building from its stiffness matrix
+* "linear" file: linear system's one-step-ahead time series forecasting models and damage assessment
+* "nonlinear model" file: nonlinear system(Bouc Wen model)'s one-step-ahead time series forecasting models and damage assessment
+* "predict_unmeasured_floor" file: predict unmeasured floors from measured dynamic responses and base excitations
+* "future_predict_past" file: predict base excitations of a structure from its dynamic responses
+* "K_E_mapping" file: predict the elastic modulus of each story in a building from its stiffness matrix
 For downloading training and test dataset used in the above files please refer to the following link:
