@@ -9,4 +9,5 @@ In addition, this work also employs LSTM and MLP to predict base excitations of 
 * "predict_unmeasured_floor" file: predict unmeasured floors from measured dynamic responses and base excitations
 * "future_predict_past" file: predict base excitations of a structure from its dynamic responses
 * "K_E_mapping" file: predict the elastic modulus of each story in a building from its stiffness matrix
+
 For downloading training and test dataset used in the above files please refer to the following link:
