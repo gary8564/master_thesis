@@ -1,0 +1,21 @@
+clear all; close; clc
+f=readtable('natural_freq_2F_10%_3F_30%_4F_20%.xlsx');
+V=readtable('V_2F_10%_3F_30%_4F_20%.xlsx');
+m=readtable('mass.xlsx');
+f=table2array(f);
+V=table2array(V);
+m=table2array(m);
+m=m/1000;
+M=diag(m);
+Mn=V'*M*V;
+eigen=(f*2*pi).^2;
+m_bar=diag(Mn);
+D=diag(eigen);
+Kn=m_bar.*D;
+K=inv(V')*Kn*inv(V);
+K_1=M*V*D*V'*M;
+k0=diag(K_1);
+k1=diag(K_1,1);
+k2=diag(K_1,2);
+K_1=diag(k0)+diag(k1,1)+diag(k1,-1)+diag(k2,2)+diag(k2,-2);
+save('K1_2F_10%_3F_30%_4F_20%.dat','K_1','-ascii')
