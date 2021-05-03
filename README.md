@@ -5,4 +5,7 @@ In addition, this work also employs LSTM and MLP to predict base excitations of 
 
 ## Instructions
 "linear" file: linear system's one-step-ahead time series forecasting models.
-"
+"nonlinear" file
+"pred_unmeasured_floor" file:
+"future_pred_past" file:
+"K_E mapping" file:
