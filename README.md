@@ -12,4 +12,4 @@ Filenames instruction:
 * "future_predict_past" file: predict base excitations of a structure from its dynamic responses
 * "K_E_mapping" file: predict the elastic modulus of each story in a building from its stiffness matrix
 
-For downloading training and test dataset used in the above files please refer to the following link:
+For downloading training and test dataset used in the above files please refer to the following link: [Dataset](https://drive.google.com/drive/folders/1wgOAK0811hNiYYuOg-M8BNqgLSfM7Ve6?usp=sharing)
